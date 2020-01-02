@@ -4,7 +4,7 @@
 using namespace std;
 class hi{    //物件hi
  private:    //宣告物件中的私有資料成員、私有成員函式
-      int a,b,tA,np;    //宣告物件中的變數
+      int a,b,tA,np;    //宣告物件中的變數。a為數值，b為該數值的絕對值，tA為該數值的最高位數，np代表數值為+(1)或-(0)。
       int *A;    //宣告物件中的指標
       void ornot()    //宣告進退位處理的成員函式
       {
